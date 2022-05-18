@@ -21,6 +21,6 @@ public class HealthController {
     @GetMapping(path="/info", produces = "application/json")
     public String  getAppInfo() {
     	telemetryClient.trackEvent("URI /info is triggered");    	
-        return "Springboot App Service - version 2";
+        return "Springboot App Service - version 3";
     }    
 }
